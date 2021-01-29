@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(222, 195, 151);
+  margin: 25px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: large;
+  color: rgb(144, 49, 49);
+}
+
+.addTarget{
+  display: inline-block;
+  align-content: center;
+  width: 90vw;
+  /* justify-content: center; */
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.form{
+  display: block;
+  justify-content: space-evenly;
+}
+
+.bountyContainer{
+  border: solid 2px red;
+  padding: 10px;
+  margin: 8px;
+}
+
+.bountyName{
+  font-size: large;
+  color: rgb(144, 49, 49);
+  padding: 5px;
+}
+
+.bountyWorth{
+  font-size: medium;
+  text-align: center;
+  color: azure;
+  border: solid 5px rgb(62, 61, 61);
+}
+
+.bountyActions{
+  display: flex;
+  justify-content: space-evenly;
+  border: dashed 5px rgb(156, 115, 34);
+  margin: 20px;
+  padding: 10px;
+}
